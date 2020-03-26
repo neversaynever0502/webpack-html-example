@@ -5,4 +5,6 @@ function generate_random(){
 }
 
 
-module.exports = generate_random
+module.exports = {
+  generate_random
+}

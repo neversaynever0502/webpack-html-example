@@ -5,15 +5,14 @@
       
   </head>
   <body>
+    <div id="numberDiv"></div>
     <button onclick="gr()">click</button>
     <script>
       function gr(){
-        // const a = EntryPoint.generate_random()
-        console.log(EntryPoint())
-        // console.log(a)
+        let generRam = EntryPoint.generate_random()
+        document.getElementById('numberDiv').innerHTML = generRam
       }
-      // gr()
-      // console.log(generate_random())
+
     </script>
   </body>
 </html>
